@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<script>
-"use strict";
+let value = prompt('Какое официальное название языка Javascript?', '');
 
-let year = prompt('Какое официальное название языка Javascript?', '');
-
-if (year == 'ECMAScript') {
+if (value == 'ECMAScript') {
   alert( 'Верно!' );
 } else {
-  alert( 'Не знаете? ECMAScript' ); // любое значение, кроме 2015
+  alert( 'Не знаете? ECMAScript'); 
 }
-</script>
